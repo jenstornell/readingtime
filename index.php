@@ -3,7 +3,7 @@ include __DIR__ . '/readingtime.php';
 
 $readingtime = new ReadingTime(230);
 
-$text = 'Tjänsten Pollenkoll har hängt med i flera år. Nu har de både en webbplats och en app. Hos Pollenrapporten kan man på en karta se hur pollen rör sig över Sverige. Det kan vara bra för att skapa sig en egen uppfattning om när en pollenperiod börjar och slutar och i vilket skede den befinner sig i just nu. Datan hämtas från Naturhistoriska Riksmuseet. Därför finns det även alternativa webbplatser som innehåller samma information.';
+$text = 'Sugar plum chocolate bar marshmallow brownie powder sesame snaps chupa chups. Fruitcake jelly dragée cotton candy. Sesame snaps wafer croissant danish apple pie lollipop muffin. Marshmallow carrot cake sweet dessert pastry oat cake muffin cupcake dessert.';
 
 $time = $readingtime->set($text);
 $time = strtr($time, [
